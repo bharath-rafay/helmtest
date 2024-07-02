@@ -14,4 +14,4 @@ spec:
   namespace: nginx
   placement:
     selector: rafay.dev/clusterName=import
-  version: lzmlz-v1-202407021110430000
+  version: 2
