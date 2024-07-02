@@ -1,0 +1,15 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: kube-armor
+  project: bharathtest
+spec:
+  artifact:
+    artifact:
+      catalog: default-helm
+      chartName: kubearmor
+      chartVersion: v1.3.2
+    type: Helm
+  namespace: nginx
+  sharing: {}
+  version: "1"
