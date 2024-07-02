@@ -1,0 +1,14 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: kuberay
+  project: bharathtest
+spec:
+  artifact:
+    artifact:
+      catalog: default-bitnami
+      chartName: kuberay
+      chartVersion: 1.2.5
+    type: Helm
+  namespace: nginx
+  sharing: {}
