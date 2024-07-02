@@ -8,7 +8,7 @@ spec:
     artifact:
       paths:
       - name: test.yaml
-      repository: bharat-git
+      repository: bharat-git1
       revision: master
     type: Yaml
   namespace: nginx
