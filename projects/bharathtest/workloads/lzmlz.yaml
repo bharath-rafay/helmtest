@@ -5,6 +5,10 @@ metadata:
   project: bharathtest
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: test.yaml
+      repository: bharat-git
+      revision: master
     type: Yaml
   namespace: nginx
