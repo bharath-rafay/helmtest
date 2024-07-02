@@ -12,3 +12,6 @@ spec:
       revision: master
     type: Yaml
   namespace: nginx
+  placement:
+    selector: rafay.dev/clusterName=import
+  version: lzmlz-v1-202407021110430000
