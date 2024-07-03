@@ -14,4 +14,3 @@ spec:
   namespace: nginx
   placement:
     selector: rafay.dev/clusterName=import
-  version: "7"
