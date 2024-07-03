@@ -7,11 +7,9 @@ spec:
   base:
     name: minimal
     version: 2.7.0
-  defaultAddons:
-    enableIngress: true
   driftWebhook: {}
   namespaceConfig:
     enableSync: true
     syncType: Managed
   type: custom
-  version: "1"
+  version: "2"
