@@ -9,7 +9,7 @@ spec:
       paths:
       - name: test.yaml
       repository: bharat-git
-      revision: master
+      revision: main
     type: Yaml
   namespace: nginx
   placement:
