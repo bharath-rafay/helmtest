@@ -8,10 +8,10 @@ spec:
     artifact:
       paths:
       - name: test.yaml
-      repository: bharat-git
-      revision: main
+      repository: bharat-git1
+      revision: master
     type: Yaml
   namespace: nginx
   placement:
     selector: rafay.dev/clusterName=import
-  version: lzmlz-v9
+  version: lzmlz-v10
