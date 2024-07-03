@@ -9,9 +9,9 @@ spec:
       paths:
       - name: test.yaml
       repository: bharat-git
-      revision: main
+      revision: master
     type: Yaml
   namespace: nginx
   placement:
     selector: rafay.dev/clusterName=import
-  version: 7
+  version: "7"
