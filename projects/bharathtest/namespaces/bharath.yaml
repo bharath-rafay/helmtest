@@ -5,4 +5,15 @@ metadata:
     rafay.dev/description: ""
   name: bharath
   project: bharathtest
-spec: {}
+spec:
+  limitRange:
+    container: {}
+    pod: {}
+  namespaceMeshPolicyParams: {}
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: import
+  resourceQuotas:
+    cpuRequests: 1m
+    memoryRequests: 100Mi
