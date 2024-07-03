@@ -11,5 +11,12 @@ spec:
   namespaceConfig:
     enableSync: true
     syncType: Managed
+  opaPolicy:
+    opaPolicy:
+    - name: policy-privileged
+      version: version-1719633617
+    profile:
+      name: default
+      version: latest
   type: custom
-  version: "2"
+  version: "3"
